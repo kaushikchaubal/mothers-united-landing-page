@@ -118,11 +118,11 @@ hr{
 /* buttons */
 .btn-new{
     background: transparent;
-    border: 2px solid #FF6863;
+    border: 2px solid #21A480;
     display: inline-block;
     padding: 15px 30px;
     border-radius: 30px;
-    color: #FF6863;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     -webkit-transition: all .3s ease;
@@ -142,7 +142,7 @@ hr{
     outline: none;
 }
 .btn-bold{
-    background: #FF6863;
+    background: #21A480;
     color: #fff;
 }
 .btn-bold:hover{
@@ -343,7 +343,7 @@ header .btn-new{
 }
 /* firstFeature section --------------------------------------------------*/
 #firstFeature{
-    background: #f0f0f0;
+    background: #68CCB0;
     padding: 150px 0px;
     overflow: hidden;
 }
@@ -540,7 +540,7 @@ iframe,embed,object {
     padding:150px 0px ;
 }
 .thirdFeatureBg{
-    background: url("../images/bg2.jpg") no-repeat  center center   rgba(0, 0, 0, 0);
+    background: #FA7A32;
     padding-top: 15px;
     padding-bottom: 15px;
     background-size: cover;
@@ -582,7 +582,7 @@ iframe,embed,object {
 }
 /* parallax ------------------------------------------------------- */
 .parallaxBg {
-    background: url(../images/bg.jpg) no-repeat center center fixed #444;
+    background-color: #FA7A32;
     background-attachment: fixed !important;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -597,7 +597,6 @@ iframe,embed,object {
     text-align: center;
 }
 .overlay {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
     width: 100%;
     height: 100%;
     padding: 100px 0px;
