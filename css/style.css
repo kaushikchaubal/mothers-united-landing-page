@@ -90,6 +90,9 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 20px;
     line-height: 1.2;
 }
+.constantHeight {
+    height: 360px;
+}
 .hiddenHeader{
     display: none;
     margin: 0px;
