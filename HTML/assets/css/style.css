@@ -1,0 +1,84 @@
+body{
+    background: #f8f8f8;
+}
+header{
+    text-align: center;
+    background: #f0f0f0;
+    padding: 40px 0px;
+    border-bottom: 1px solid #ddd;
+}
+header h1{
+    background: #FF6863;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.logo{
+    margin: 10px auto;
+    display: block;
+}
+.content{
+    background: #161616;
+    position: relative;
+}
+.lightBg {
+    background-color: #fff;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 50%;
+}
+.item{
+    max-width: 400px;
+    margin: auto;
+}
+.title-version{
+    text-align: center;
+    padding: 40px 0px 60px;
+    color: #FF6863;
+}
+.title-version span{
+    background: #FF6863;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+}
+.images{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.darkVersion .images{
+    border-color: #080808;
+}
+.darkVersion hr{
+    border-color: #080808;
+}
+.version{
+    text-align: center;
+    color: #FF6863;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+a:hover,a:focus{
+    color: #FF6863;
+    text-decoration: none;
+    outline: none;
+
+}
+@media only screen and (max-width: 767px) {
+    .lightBg {
+        top: 0;
+        height: 50%;
+        position: absolute;
+        width: 100%;
+    }
+}
