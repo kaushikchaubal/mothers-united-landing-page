@@ -1,0 +1,10 @@
+{
+  "name": "math-simplified",
+  "version": "1.0.0",
+  "description": "A simplified way of learning Maths - fun and interactive",
+  "main": "web.js",
+  "dependencies": {
+    "express": "^4.10.6",
+    "gzippo": "^0.2.0"
+  }
+}
