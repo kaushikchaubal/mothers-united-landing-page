@@ -136,7 +136,7 @@ hr{
     white-space: nowrap;
 }
 .btn-new:hover,.btn-new:focus{
-    background: #FC453F;
+    background: #68CCB0;
     color: #fff;
     text-decoration: none;
     outline: none;
@@ -146,7 +146,7 @@ hr{
     color: #fff;
 }
 .btn-bold:hover{
-    background: #FC453F;
+    background: #68CCB0;
 }
 .light{
     font-weight: 400;
@@ -241,7 +241,7 @@ hr{
     outline: none;
 }
 .navbar-nav li.active a,.navbar-nav li a:hover {
-    color:#FF6863;
+    color:#68CCB0;
 }
 header .btn-new{
     padding: 8px 18px;
@@ -470,6 +470,7 @@ ul.feature-list li {
     right: 0px;
     max-width: 100%;
 }
+#mainTi
 #secondFeature h2{
     margin-top: 100px;
 }
@@ -1215,4 +1216,8 @@ footer p a:hover {
     #firstFeature .phones {
         height: 200px;
     }
+}
+/* Custom styles */
+.customWidth {
+    width: auto !important;
 }
