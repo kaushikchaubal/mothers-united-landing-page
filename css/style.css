@@ -285,6 +285,10 @@ header .btn-new{
     margin-bottom: 5px;
 }
 /*services-------------------------------------- */
+#problem{
+    background: #68CCB0;
+    padding: 150px 0px;
+}
 #services{
     background: #fff;
     padding: 150px 0px;
@@ -587,6 +591,21 @@ iframe,embed,object {
 /* parallax ------------------------------------------------------- */
 .parallaxBg {
     background-color: #FA7A32;
+    background-attachment: fixed !important;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.problemBg {
+    background-color: ##68CCB0;
     background-attachment: fixed !important;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
