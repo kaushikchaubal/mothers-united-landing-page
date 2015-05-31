@@ -1263,3 +1263,20 @@ footer p a:hover {
     font-size: 40px;
     font-weight: 500;
 }
+
+.owl-carousel .owl-wrapper-outer {
+   overflow: inherit !important ; 
+  position: relative;
+  width: 100%;
+}
+
+.containerTeam {
+    margin-left: 50px !important;
+    margin-right: 0px !important;
+}
+
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+  display: none !important;
+}
