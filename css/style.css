@@ -286,7 +286,7 @@ header .btn-new{
 }
 /*services-------------------------------------- */
 #problem{
-    background: #68CCB0;
+    background: #21A480;
     padding: 150px 0px;
 }
 #services{
@@ -350,7 +350,7 @@ header .btn-new{
 }
 /* firstFeature section --------------------------------------------------*/
 #firstFeature{
-    background: #68CCB0;
+    background: #21A480;
     padding: 150px 0px;
     overflow: hidden;
 }
@@ -605,7 +605,6 @@ iframe,embed,object {
     text-align: center;
 }
 .problemBg {
-    background-color: ##68CCB0;
     background-attachment: fixed !important;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -694,7 +693,7 @@ iframe,embed,object {
 /*item style */
 #team{
     padding: 150px 0px ;
-    background: #f0f0f0;
+    background: #21A480;
 }
 .owl-pagination{
     padding-top: 40px;
