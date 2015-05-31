@@ -91,7 +91,7 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 1.2;
 }
 .constantHeight {
-    height: 360px;
+    height: 250px;
 }
 .hiddenHeader{
     display: none;
@@ -297,17 +297,21 @@ header .btn-new{
     margin: 0px;
     padding: 0px;
     list-style: none;
+
 }
 .servicesList li{
     color: #fff;
     position: relative;
     padding: 40px;
+    border-radius: 50%;
+    padding-top:70px;
+    margin-left: 5px;
+    text-align: center;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     z-index: 2;
-
 }
 .servicesList li .number{
     position: absolute;
@@ -397,7 +401,7 @@ ul.feature-list li {
     text-align: center;
 }
 .featureCircleInner{
-    background: rgba(84,206,182,0.8);
+    background: rgba(0, 113, 82,0.8);
     width: 126px;
     height: 126px;
     border-radius: 50%;
@@ -477,7 +481,7 @@ ul.feature-list li {
     right: 0px;
     max-width: 100%;
 }
-#mainTi
+
 #secondFeature h2{
     margin-top: 100px;
 }
@@ -521,25 +525,13 @@ ul.feature-list li {
 .secondFeatureClear{
     height: 0px;
 }
-/* videoSection ------------------------------------------- */
-#videoSection{
-    background: #fff;
-    padding:180px 0px 150px ;
+.connectThem{
+    font-size: 40px;
+    font-weight: 500;
 }
-video {
-    max-width: 100%;
-    height: auto;
-}
-iframe,embed,object {
-    max-width: 100%;
-}
-.video-container {
-    background: transparent !important;
-    margin: auto;
-    text-align: center;
-}
-.video {
-    background: transparent !important;
+.connectThemSubtitle{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* thirdFeature ------------------------------------------- */
@@ -626,6 +618,14 @@ iframe,embed,object {
 .downloadNumber{
     font-size: 90px;
     font-weight: 700;
+}
+.mainTitle{
+    font-size: 90px;
+    font-weight: 500;
+}
+.mainDescription{
+    font-size: 30px;
+    font-weight: 200;
 }
 /* features ---------------------------------------------------- */
 #features{
@@ -1241,4 +1241,25 @@ footer p a:hover {
 /* Custom styles */
 .customWidth {
     width: auto !important;
+}
+
+.col-md-3 {
+    width: 22% !important;
+}
+
+.notify{
+    font-size: 40px;
+    font-weight: 500;
+}
+.nurture{
+    font-size: 40px;
+    font-weight: 500;
+}
+.expertise{
+    font-size: 40px;
+    font-weight: 500;
+}
+.trustCircle{
+    font-size: 40px;
+    font-weight: 500;
 }
