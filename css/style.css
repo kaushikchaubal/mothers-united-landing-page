@@ -582,7 +582,14 @@ ul.feature-list li {
 }
 /* parallax ------------------------------------------------------- */
 .parallaxBg {
-    background-color: #FA7A32;
+      background: url(../images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  /*background-size: cover;: url('./images/background.png') no-repeat;*/
+    /*background-color: #FA7A32;*/
+
     background-attachment: fixed !important;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
